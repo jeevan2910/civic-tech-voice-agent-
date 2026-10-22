@@ -1,0 +1,115 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    --font-display: 'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    
+    /* Design Tokens from design.md */
+    --color-primary: #181d26;
+    --color-primary-active: #0d1218;
+    --color-ink: #181d26;
+    --color-body: #333840;
+    --color-muted: #555b66;
+    --color-hairline: #dddddd;
+    --color-border-strong: #9297a0;
+    --color-canvas: #ffffff;
+    --color-surface-soft: #f8fafc;
+    --color-surface-strong: #e0e2e6;
+    --color-surface-dark: #181d26;
+    --color-surface-dark-elevated: #1d1f25;
+    
+    /* Signature Brand Voltage Cards */
+    --color-signature-coral: #aa2d00;
+    --color-signature-forest: #0a2e0e;
+    --color-signature-cream: #f5e9d4;
+    --color-signature-peach: #fcab79;
+    --color-signature-mint: #a8d8c4;
+    --color-signature-yellow: #f4d35e;
+    --color-signature-mustard: #d9a441;
+    
+    /* Semantic Roles */
+    --color-link: #1b61c9;
+    --color-link-active: #1a3866;
+    --color-info: #254fad;
+    --color-info-border: #458fff;
+    --color-success: #006400;
+    --color-success-border: #39bf45;
+  }
+
+  html {
+    font-size: 14px;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--color-canvas);
+    color: var(--color-body);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+    letter-spacing: -0.011em;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--color-ink);
+    letter-spacing: -0.02em;
+  }
+}
+
+/* Signature Brand Cards from design.md */
+.signature-coral-card {
+  background-color: var(--color-signature-coral);
+  color: #ffffff;
+  border-radius: 10px;
+}
+
+.signature-forest-card {
+  background-color: var(--color-signature-forest);
+  color: #ffffff;
+  border-radius: 10px;
+}
+
+.signature-cream-card {
+  background-color: var(--color-signature-cream);
+  color: var(--color-ink);
+  border-radius: 8px;
+}
+
+.signature-dark-card {
+  background-color: var(--color-surface-dark);
+  color: #ffffff;
+  border-radius: 10px;
+}
+
+.feature-card-tabbed {
+  background-color: var(--color-surface-soft);
+  color: var(--color-ink);
+  border-radius: 10px;
+}
+
+.cta-band-light {
+  background-color: var(--color-surface-strong);
+  color: var(--color-ink);
+  border-radius: 10px;
+}
+
+/* Minimal Editorial Scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+::-webkit-scrollbar-thumb {
+  background: #dddddd;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #9297a0;
+}
+
+

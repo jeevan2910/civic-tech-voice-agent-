@@ -1,0 +1,68 @@
+[
+  {
+    "id": "USR-001",
+    "email": "officer@grievance.gov",
+    "password": "officer123",
+    "name": "Dr. Ramesh Verma",
+    "title": "Chief Grievance Officer",
+    "role": "officer",
+    "department_id": null,
+    "department_name": "Central Grievance Cell",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "USR-002",
+    "email": "supervisor@grievance.gov",
+    "password": "super123",
+    "name": "A. K. Sharma",
+    "title": "Zonal Supervisor - Water Supply",
+    "role": "supervisor",
+    "department_id": "DEP-WATER-HYD",
+    "department_name": "Hyderabad Water Supply Department",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "USR-003",
+    "email": "sanitation@grievance.gov",
+    "password": "super123",
+    "name": "Meera Nambiar",
+    "title": "Zonal Supervisor - Sanitation & Waste",
+    "role": "supervisor",
+    "department_id": "DEP-SAN-HYD",
+    "department_name": "Greater Hyderabad Municipal Corporation - Sanitation",
+    "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "USR-004",
+    "email": "roads@grievance.gov",
+    "password": "super123",
+    "name": "Venkatesh Rao",
+    "title": "Supervising Engineer - Roads & Infrastructure",
+    "role": "supervisor",
+    "department_id": "DEP-ROADS-HYD",
+    "department_name": "GHMC Roads Department",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "USR-005",
+    "email": "admin@grievance.gov",
+    "password": "admin123",
+    "name": "Pooja Hegde",
+    "title": "State Grievance Director",
+    "role": "admin",
+    "department_id": null,
+    "department_name": "Department of Administrative Reforms",
+    "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "USR-006",
+    "email": "citizen@hyderabad.gov",
+    "password": "citizen123",
+    "name": "Ananya Rao",
+    "title": "Citizen Complainant",
+    "role": "citizen",
+    "department_id": null,
+    "department_name": "Public Citizen Portal",
+    "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&auto=format&fit=crop&q=80"
+  }
+]
